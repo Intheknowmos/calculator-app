@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&family=Rubik:wght@300;400;500&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    display: block;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Strongcyan: hsl(172, 67%, 45%);
+    --Vdcyan: hsl(183, 100%, 15%);
+    --Darkgray-cyan: hsl(186, 14%, 43%);
+    --Darkgrayish-cyan: hsl(184, 14%, 56%);
+    --Lightgray-cyan: hsl(185, 41%, 84%);
+    --Lightgrayish-cyan: hsl(189, 41%, 97%);
+    --White: hsl(0, 0%, 100%);
+    font-size: 24px;
+}
+
+body {
+    background-color: var(--Lightgray-cyan);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    background-color: var(--White);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+div {
+    font-family: 'Space Mono', Rubik;
+}
+
+.logo img {
+    position: fixed;
+    left: 50%;
+    margin-top: -250px;
+
+}
+
+.calc {
+    background-color: var(--Vdcyan);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.calculater {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    padding-top: 15px;
+    gap: 100px;
+}
+
+.percent {
+    background-color: var(--Vdcyan);
+    color: white;
+    padding: 5px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Space Mono', Rubik;
+    font-size: medium;
+    border: none;
+}
+
+.percent:hover {
+    background-color: var(--Strongcyan);
+    color: var(--Darkgray-cyan);
+}
+
+/* #percent {
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Space Mono', Rubik;
+    border: none;
+} */
+
+#custom {
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Space Mono', Rubik;
+    border: none;
+    background-color: var(--Darkgrayish-cyan);
+}
+
+#custom::placeholder {
+    text-align: right;
+}
+
+#percent:hover {
+    background-color: var(--White);
+}
+
+#percent:hover {
+    background-color: var(--White);
+}
+
+.title {
+    font-weight: 100;
+    width: 70%;
+    font-size: small;
+    color: var(--Darkgray-cyan);
+}
+
+.titte {
+    padding-top: 20px;
+}
+
+h4 {
+    color: var(--Lightgrayish-cyan);
+    font-family: 'Space Mono', Rubik;
+    font-weight: 200;
+    font-size: medium;
+}
+
+h6 {
+    color: var(--Darkgrayish-cyan);
+    font-weight: 100;
+}
+
+form input {
+    background-color: var(--Lightgrayish-cyan);
+    font-family: 'Space Mono', Rubik;
+    width: 20%;
+    font-size: medium;
+    border: none;
+}
+
+.div5 input {
+    background-color: var(--Lightgrayish-cyan);
+    font-family: 'Space Mono', Rubik;
+    width: 25%;
+    font-size: medium;
+    border: none;
+}
+
+#reset {
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: var(--Darkgray-cyan);
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+#reset:hover {
+    background-color: var(--Strongcyan);
+}
+
+.money {
+    color: var(--Strongcyan);
+    font-family: 'Space Mono', Rubik;
+    font-weight: 700;
+}
+
+.div5 {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--Lightgrayish-cyan);
+    border-radius: 4px;
+    padding: 9px;
+}
+
+.div5 div {
+    color: var(--Lightgray-cyan);
+}
