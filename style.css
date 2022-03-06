@@ -182,3 +182,38 @@ form input {
 .div5 div {
     color: var(--Lightgray-cyan);
 }
+
+@media  screen and (max-width: 375px) {
+    body {
+        background-color: var(--Lightgray-cyan);
+        display: flex;
+        flex-direction: column;
+        padding-top: 150px;
+        /* align-items: center;
+        justify-content: center;  */
+        height: 100%;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
+        background-color: var(--White);
+        border-radius: 10px;
+        padding: 10px 20px 100px 20px;
+        
+    }
+
+    .logo {
+        margin-top: -200px;
+        align-items: center;
+        position: fixed;
+        margin-bottom: -150px;
+    }
+
+    .logo img {
+        left: 40%;
+        position: fixed;
+
+    }
+}
